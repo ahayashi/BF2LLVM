@@ -81,7 +81,8 @@ void generate(std::string& codes)
     /* For Loop */
     int loopCount = 0;
     std::stack<LoopInfo*> stack;
- 
+
+    /* Interpretation */
     for (size_t i = 0; i < codes.size(); i++) {
         switch(codes[i]) {
 	case '>':
